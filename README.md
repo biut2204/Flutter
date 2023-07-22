@@ -52,7 +52,7 @@ Bước 2: Config biến môi trường
 Bước 3: Run "flutter doctor" trong cửa sổ Window Command Line
 để kiểm tra xem đã cài đặt Flutter SDK thành công hay chưa
 
-* Cài đặt JDK + Android SDK + Tool code Android Studio
+## Cài đặt JDK + Android SDK + Tool code Android Studio
 
 Bước 1: Cài đặt JDK (Java Development Kit)
 
@@ -79,7 +79,7 @@ Bước 4: Kiểm tra cài đặt
 - Gõ lệnh "javac -version" để kiểm tra phiên bản trình biên dịch Java.
 - Gõ lệnh "adb version" để kiểm tra phiên bản Android Debug Bridge (ADB).
 
-* Cài đặt Flutter Plugin & Dart Plugin trong Android Studio
+## Cài đặt Flutter Plugin & Dart Plugin trong Android Studio
 
 - Mở Android Studio.
 - Nhấp vào menu "File" và chọn "Settings".
@@ -91,13 +91,13 @@ Bước 4: Kiểm tra cài đặt
 - Android Studio sẽ tải Flutter SDK và các plugin cần thiết.
 - Sau khi tải xong, bạn có thể bắt đầu phát triển ứng dụng Flutter của mình.
 
-* Tạo project
+## Tạo project
 
 - Chọn New Flutter Project
 - Chọn Flutter -> Chọn SDK đã cài đặt -> Đặt tên project -> Project type chọn Application , Platforms chọn Android và IOS -> Next
 - Device ManaGer -> Chọn thiết bị máy ảo chạy -> Run
 
-* chạy main.dart
+## chạy main.dart
 
 Bước 1 : Khai báo thư viện import 'package:flutter/material.dart';
 
@@ -118,7 +118,7 @@ Bước 3 : Khai báo ứng dụng app sử dụng MaterialApp
 - len(int index)  để thay đổi vị trí dữ liệu của listDanhSach theo vị trí index lên 1 đơn vị
 - xuong(int index) để thay đổi vị trí dữ liệu của listDanhSach theo vị trí index xuống 1 đơn vị
 
-* Tính năng của các button
+## Tính năng của các button
 
 - Button 1 : Thêm dữ liệu
 click vào button -> Hiển thị bàn phìm nhập dữ liệu -> Nhập dữ liệu -> Click thêm
